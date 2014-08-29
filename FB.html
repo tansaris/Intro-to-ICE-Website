@@ -25,6 +25,10 @@
     <link rel="stylesheet" type="text/css" href="css/demo2.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <script src="js/modernizr.custom.js"></script>
+    <!-- Circle -->
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/style7.css" />
+    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -100,10 +104,6 @@
         margin-top: 0px;
       }
 
-      #Photo{
-        padding-top:80px;
-      }
-
       
     </style>
   </head>
@@ -120,7 +120,7 @@
   <div class="carousel-inner">
     <div class="item active">
       <!-- Caption1 pic here -->
-      <img src="images/mainpage/carousel/carousel.png" alt="">
+      <img src="images/car1.jpg" alt="">
       <div class="carousel-caption">
         <!-- Caption1 here -->
         <div class="col-md-8 col-md-offset-2">
@@ -131,12 +131,45 @@
     </div>
     <div class="item">
       <!-- Caption2 pic here -->
-      <img src="images/mainpage/carousel/carousel2.png" alt="">
+      <img src="images/hbd.png" alt="">
       <div class="carousel-caption">
         <!-- Caption2 here -->
         <div class="col-md-8 col-md-offset-2">
-            <p id="carouselCap">Hi,</p>
-            <p id="carousel-button-text">Tan Ophaswongse</p>
+            <p id="carouselCap">Born,</p>
+            <p id="carousel-button-text">19 January 1995</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <!-- Caption2 pic here -->
+      <img src="images/car1.jpg" alt="">
+      <div class="carousel-caption">
+        <!-- Caption2 here -->
+        <div class="col-md-8 col-md-offset-2">
+            <p id="carouselCap">Primary School,</p>
+            <p id="carousel-button-text">Prasanmit Demonstration School</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <!-- Caption2 pic here -->
+      <img src="images/car2.jpg" alt="">
+      <div class="carousel-caption">
+        <!-- Caption2 here -->
+        <div class="col-md-8 col-md-offset-2">
+            <p id="carouselCap">High School,</p>
+            <p id="carousel-button-text">Patumwan Demonstration School</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <!-- Caption2 pic here -->
+      <img src="images/car3.jpg" alt="">
+      <div class="carousel-caption">
+        <!-- Caption2 here -->
+        <div class="col-md-8 col-md-offset-2">
+            <p id="carouselCap">University</p>
+            <p id="carousel-button-text">Faculty of Engineering, Chulalongkorn University</p>
         </div>
       </div>
     </div>
@@ -156,57 +189,16 @@
 <div class="theNavBar" data-spy="affix" data-offset-top="409" >
   <nav class="navbar navbar-default" id="navbar-in" role="navigation">
       <ul class="nav nav-pills nav-justified" style="background-color:#282828">
-        <li><a href="#Hobbie" id="navbarFont" >Hobbies</a></li>
+        <li><a href="#Contact" id="navbarFont" >Contact</a></li>
+        <li><a href="#Hobbie" id="navbarFont" >Hobbie</a></li>
         <li><a href="#Friend" id="navbarFont" >Friend</a></li>
-        <li><a href="#Photo" id="navbarFont" >Photo Gallery</a></li>
+        <li><a href="#Thing" id="navbarFont" >Here</a></li>
       </ul>
   </nav>
 </div>
 <!--============================== End Nav ==============================-->
   <!-- pheeeeeeeeeeeeeeeeeeeeeeee -->
-    <div id="Contact" class="row">
-      <!-- Profile Pic -->
-      <div class="col-md-2 col-md-offset-1 profilepic lefttabcontainer">
-        <div class="imgcontainer">
-        <img style="border-radius:5px; border:3px solid #282828" src="images/1.jpg">
-          <ul class="fontlefttab basicInfoCon" style="font-size:15px">
-            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Birthday:20 Oct 1994</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Gender: Male</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Phone: 09999999</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Something:something</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>    
-        </div>
-      </div>
-      <!-- End of Profile Pic -->
-      <!-- Start Info Rectangle -->
-      <div class="col-md-8 infowindow">
-        <div class="infocontainer">
-          <h6>Contact Information</h6>
-          <div class="textContainer">
-          <p style="font-size:15px"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum sollicitudin urna vel aliquam. Cras vitae pretium massa, et interdum arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum dolor, nec placerat lectus sollicitudin quis. Praesent eu eros et leo sollicitudin ornare sed ut mauris. Mauris posuere, dui nec cursus adipiscing, nisl lacus tristique libero, vel molestie quam nunc non nibh. Sed vulputate mauris vel elit fringilla placerat. Nam risus risus, consectetur at sodales vitae, vehicula a ipsum. Vestibulum ac elit diam. Nullam luctus, elit eu iaculis laoreet, nibh odio euismod sapien, a fermentum massa lectus ut odio. Nam tempor mauris varius mi egestas mattis. Vestibulum vitae mi magna. Nulla turpis tortor, gravida at libero sit amet, ultricies ultrices purus. Suspendisse convallis nulla non ligula sollicitudin, ac suscipit ante placerat. Pellentesque consequat sapien fermentum odio auctor, ac viverra mi scelerisque. Etiam semper ligula sit amet libero pretium eleifend.</p>
-        </div>
-        <div class="photoCon">
-          <img style="width:150px; height:150px; margin-left:25px; margin-top:11px" class="border" src="images/2.jpg"/>
-          <img style="width:150px; height:150px; margin-left:1px; margin-top:11px"class="border" src="images/3.jpg"/>
-          <img style="width:150px; height:150px; margin-left:25px; margin-top:5px"class="border" src="images/4.jpg"/>
-          <img style="width:150px; height:150px; margin-left:1px; margin-top:5px" class="border" src="images/5.jpg"/>
-          <img style="width:150px; height:150px; margin-left:25px; margin-top:5px" class="border" src="images/6.jpg"/>
-          <img style="width:150px; height:150px; margin-left:1px; margin-top:5px" class="border" src="images/7.jpg"/>
-        </div>
-        </div>
-        <div>
-          <img class="sepLine" src="images/line.png"/ style="width:0.2%; height:90%">
-        </div>
-        <!-- <div class="photoCon"></div> -->
-      </div>
-      <!-- End of info rectangle -->
-    </div>
+    
     <!-- Start Hobbies and Interest Page -->
       <div id="Hobbie"class="row">
         <div class="col-md-offset-1 col-md-2">
@@ -246,101 +238,177 @@
         </div>   
         </div>
       </div> 
-      <!-- Start Friends -->
-       <div id="Friend" class="row">
+        <!-- End of Hobbies -->
+    <!-- Start Friends -->
+       <div class="row">
         <div class="col-md-offset-1 col-md-10">
-            <p class="headerStyle" style="text-align:right">My Friends : )</p>
-            <img class="lineStyle2" src="images/horizontalline.png">
+            <p class="headerStyle" style="text-align:left; font-size:80px; margin-top:-10px; color:#ffffff">My <span style="color:yellow;font-size:100px">F</span>riend<span 
+              style="color:yellow; font-size:100px">S</span></p>
+            <!-- <img class="lineStyle2" src="images/horizontalline.png"> -->
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-offset-2 col-md-4 videoCon">
+     <div class="row col-md-offset-3" style="margin-top:-20px">
+        <section class="main">
+          <ul class="ch-grid">
+            <li id="fixMargin">
+              <div class="ch-item" id="fixMargin">       
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-1"></div>
+                  <div class="ch-info-back">
+                    <h3>Book</h3>
+                    <p><a href="https://www.facebook.com/pholphat.virojanakul?fref=ts">View on Facebook</a></p>
+                  </div>  
+                </div>
+              </div>
+            </li>
+            <li id="fixMargin">
+              <div class="ch-item" id="fixMargin">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-2"></div>
+                  <div class="ch-info-back">
+                    <h3>Gene</h3>
+                    <p><a href="https://www.facebook.com/GZSakuraz?fref=ts">View on Facebook</a></p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="fixMargin">
+              <div class="ch-item" id="fixMargin">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-3"></div>
+                  <div class="ch-info-back">
+                    <h3>Bam</h3>
+                    <p><a href="https://www.facebook.com/profile.php?id=597352237&fref=ts">View on Facebook</a></p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="fixMargin">
+              <div class="ch-item" id="fixMargin">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-4"></div>
+                  <div class="ch-info-back">
+                    <h3>Film</h3>
+                    <p><a href="https://www.facebook.com/benya.vachalathiti?fref=ts">View on Facebook</a></p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          
+        </section>
+    </div>
+    <div class="row col-md-offset-3" style="margin-top:-60px">
+        <section class="main">
+          <ul class="ch-grid">
+            <li id="fixMargin">
+              <div class="ch-item" id="fixMargin">       
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-5"></div>
+                  <div class="ch-info-back">
+                    <h3>Eve</h3>
+                    <p><a href="https://www.facebook.com/eve.sinthawat?fref=ts">View on Facebook</a></p>
+                  </div>  
+                </div>
+              </div>
+            </li>
+            <li id="fixMargin">
+              <div class="ch-item" id="fixMargin">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-6"></div>
+                  <div class="ch-info-back">
+                    <h3>Nonie</h3>
+                    <p><a href="https://www.facebook.com/nonie.soontronvipart?fref=ts">View on Facebook</a></p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="fixMargin">
+              <div class="ch-item" id="fixMargin">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-7"></div>
+                  <div class="ch-info-back">
+                    <h3>Phee</h3>
+                    <p><a href="https://www.facebook.com/pheerawit.charuvajana?fref=ts">View on Facebook</a></p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="fixMargin">
+              <div class="ch-item" id="fixMargin">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-8"></div>
+                  <div class="ch-info-back">
+                    <h3>June</h3>
+                    <p><a href="https://www.facebook.com/june.stadsvrk?fref=ts">View on Facebook</a></p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="fixMargin">
+              <div class="ch-item" id="fixMargin">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-9"></div>
+                  <div class="ch-info-back">
+                    <h3>Hung</h3>
+                    <p><a href="https://www.facebook.com/tanawit.pananiti?fref=ts">View on Facebook</a></p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          </section>
         </div>
-        <div class="col-md-4 videoCon" style="margin-left:21px">
-        </div>
-      </div> 
-      <div class="row" style="margin-bottom:50px;">
-        <div class="pictureCon1 col-md-offset-1 col-md-2" ></div>
-        <div class="pictureCon col-md-1"></div>
-        <div class="pictureCon col-md-2"></div>
-        <div class="pictureCon col-md-1"></div>
-        <div class="pictureCon col-md-2">
-          <div class="wrapper">
-            <img style="width:150px; height:150px " src="images/2.jpg">
-            <div class="description">  
-          <!-- description content -->  
-              <p class="description_content">Playing Tennis</p>
-          <!-- end description content -->  
-            </div> 
-          </div>   
-        </div>
-      </div>
-      <!-- =================Photo gallery ======================-->
-      <div class="row">
-         <p  id="Photo"class="headerStyle" >Photo Gallery</p>
-        <section class="grid3d horizontal" id="grid3d">
-        <div class="grid-wrap">
-          <div class="grid">
-            <figure><img src="images/4.jpg" alt="img04"/></figure>
-            <figure><img src="images/3.jpg" alt="img03"/></figure>
-            <figure><img src="images/1.jpg" alt="img01"/></figure>
-            <figure><img src="images/5.jpg" alt="img05"/></figure>
-            <figure><img src="images/2.jpg" alt="img02"/></figure>
-            <figure><img src="images/8.jpg" alt="img08"/></figure>
-            <figure><img src="images/9.jpg" alt="img09"/></figure>
-            <figure><img src="images/6.jpg" alt="img06"/></figure>
-            <figure><img src="images/7.jpg" alt="img07"/></figure>
-            <figure><img src="images/9.jpg" alt="img09"/></figure>
-            <figure><img src="images/6.jpg" alt="img06"/></figure>
-            <figure><img src="images/7.jpg" alt="img07"/></figure>
-          </div>
-        </div><!-- /grid-wrap -->
-        <div class="content" style="background-color:#282828"  >
-          <div style="background-color:#282828">
-            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
+        <div class="row col-md-offset-3" style="margin-top:-60px">
+        <section class="main">
+          <ul class="ch-grid">
+            <li id="fixMargin">
+              <div class="ch-item" id="fixMargin">       
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-10"></div>
+                  <div class="ch-info-back">
+                    <h3>Ping</h3>
+                    <p><a href="https://www.facebook.com/ping.skt?fref=ts">View on Facebook</a></p>
+                  </div>  
+                </div>
+              </div>
+            </li>
+            <li id="fixMargin">
+              <div class="ch-item" id="fixMargin">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-11"></div>
+                  <div class="ch-info-back">
+                    <h3>Win</h3>
+                    <p><a href="https://www.facebook.com/win.thanachote?fref=ts">View on Facebook</a></p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="fixMargin">
+              <div class="ch-item" id="fixMargin">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-12"></div>
+                  <div class="ch-info-back">
+                    <h3>Aum</h3>
+                    <p><a href="https://www.facebook.com/aum.freek?fref=ts">View on Facebook</a></p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="fixMargin">
+              <div class="ch-item" id="fixMargin">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-13"></div>
+                  <div class="ch-info-back">
+                    <h3>Aj.Pac</h3>
+                    <p><a href="https://www.facebook.com/sivabudh.umpudh?fref=ts">View on Facebook</a></p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
 
-          </div>
-          <div style="background-color:#282828">
-            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
-            
-          </div>
-          <div style="background-color:#282828">
-            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
-            
-          </div>
-          <div style="background-color:#282828">
-            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
-            
-          </div>
-          <div style="background-color:#282828">
-            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
-            
-          </div><div style="background-color:#282828">
-            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
-            
-          </div><div style="background-color:#282828">
-            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
-            
-          </div><div style="background-color:#282828">
-            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
-            
-          </div><div style="background-color:#282828">
-            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
-            
-          </div><div style="background-color:#282828">
-            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
-            
-          </div><div style="background-color:#282828">
-            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
-            
-          </div><div style="background-color:#282828">
-            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
-            
-          </div>
-          <span class="loading"></span>
-          <span class="icon close-content"></span>
-        </div>
-      </section>
+        </section>
     </div>
 
 

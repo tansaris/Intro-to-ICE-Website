@@ -2,29 +2,35 @@
         font-family: 'Quark-Light';
         src: url('fonts/quark/Quark-Light.otf');
       }
+@font-face{
+        font-family: 'FuturaLT-Light';
+        src: url('fonts/FuturaLT/FuturaLT-Light.ttf');
+      }
+@font-face{
+        font-family: 'FuturaLT-Book';
+        src: url('fonts/FuturaLT/FuturaLT-Book.ttf');
+}
+
 .headerStyle{
-	font-family:'Quark-Light';
+	font-family:'FuturaLT-Book';
 	color:black;
 	font-size:30px;
 	margin-top:20px;
 }
 .lineStyle{
 	margin-top:-80px;
-	width:510%;
+	width:96%;
 	height:1px;
 }
 .lineStyle2{
-
 	margin-top:-80px;
-	width:100%;
+	width:102%;
 	height:1px;
 }
 .videoCon{
 	width:420px;
 	height:300px;
 	background-color:black;
-	padding-left: 0px;
-	padding-right: 0px;
 }
 .pictureCon1{
 	margin-top:30px;

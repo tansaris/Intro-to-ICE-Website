@@ -1,0 +1,43 @@
+@font-face{
+        font-family: 'Quark-Light';
+        src: url('fonts/quark/Quark-Light.otf');
+      }
+@font-face{
+        font-family: 'FuturaLT-Light';
+        src: url('fonts/FuturaLT/FuturaLT-Light.ttf');
+      }
+@font-face{
+        font-family: 'FuturaLT-Book';
+        src: url('fonts/FuturaLT/FuturaLT-Book.ttf');
+}
+.displayPic1{
+	width:150px;
+	height:150px;
+	margin-top:11px;
+	background-color:black;
+}
+.displayPic{
+	width:150px;
+	height:150px;
+	margin-left:11px;
+	margin-top:11px;
+	background-color:black;
+}
+#noPad{
+	padding-left:0px;
+}
+#bg{
+	background-image:
+		linear-gradient(to bottom,white,yellow);
+}
+.picFriends{
+	width:150px; 
+	height:150px; 
+	border-radius:10px
+}
+.picFriends2{
+	width:150px; 
+	height:150px; 
+	border-radius:100px
+}
+

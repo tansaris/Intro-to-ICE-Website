@@ -2,6 +2,18 @@
         font-family: 'Quark-Light';
         src: url('fonts/quark/Quark-Light.otf');
       }
+@font-face{
+        font-family: 'FuturaLT-Light';
+        src: url('fonts/FuturaLT/FuturaLT-Light.ttf');
+      }
+@font-face{
+        font-family: 'FuturaLT-Book';
+        src: url('fonts/FuturaLT/FuturaLT-Book.ttf');
+}
+.headAbout{
+	font-family:'FuturaLT-Book';
+
+}
 .profilepic{
 	width: 160px;
 	height: 160px;
@@ -32,9 +44,9 @@
 
  }
 .infowindow{
-	width:850px;
+	width:1120px;
 	height:500px;
-	margin-left: 25px;
+	/*margin-left: 25px;*/
 	margin-top: 50px;
 	background-color: white;
 	overflow:hidden;
@@ -42,15 +54,12 @@
 	border-radius:8px;
 }
 .infocontainer{
-	width:830px;
+	width:1130px;
 	height:490px;
-	margin-left:5px;
+	/*margin-left:5px;*/
 	margin-top:5px;
 	overflow-y:hidden;
 	font-family:'Quark-Light';
-
-	
-
 }
 .textContainer{
 	width:420px;
@@ -66,65 +75,38 @@
 	height: 370px;
 	margin-top:20px;
 }
-.smallTextCon{
+/*.smallTextCon{
 	width:140px;
 	height:20px;
  	white-space:normal;
  	overflow-y:hidden;
  	margin-left:-38px;
  	margin-bottom:10px; 
-}
+}*/
 .sepLine{
 	position:absolute;
     top: 61%;
     left: 50%;
-    margin-left: 50px;
+    margin-left: 180px;
     margin-top: -280px;
 }
 .photoCon{
-	float:center;
 	width:360px;
 	height:480px;
-	margin-left:460px;
-	margin-top:-545px;
-	font-family:'Quark-Light';
+	margin-top:0px;
+	margin-left:0px;
 }
-/*div {
-	
-	display:inline-block;
-}*/
-/*.polaroid {
-  position: relative;
-  width: 220px;
-}
- 
-.polaroid img {
-  border: 5px solid #fff;
-  border-bottom: 45px solid #fff;
-  -webkit-box-shadow: 3px 3px 3px #777;
-     -moz-box-shadow: 3px 3px 3px #777;
-          box-shadow: 3px 3px 3px #777;
-}
- 
-.polaroid p {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  bottom: 0px;
-  font: 400 18px/1 'Kaushan Script', cursive;
-  color: #888;
-}*/
-/*.pictureContainer{
-	width:200px;
-	height:200px;
-	margin-left:5px;
-	overflow:hidden;
-	background-color:yellow;
-}
-*/
-/*.border{
-	border:2px solid #282828;
-}*/
 .sizeImg{
 	width:150px; height:150px; margin-left:20px; margin-top:10px
 }
+.picAbout{
+	width:150px; 
+	height:150px; 
+	margin-left:20px; 
+	margin-top:11px
+}
+/*.border{
+	border-radius:100px;
+	border:3px solid #333333;
+
+}*/

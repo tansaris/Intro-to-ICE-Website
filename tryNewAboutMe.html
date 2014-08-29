@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Flat UI Free</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="interestcss.css" rel="stylesheet">
+    <link href="webcss.css" rel="stylesheet">
+    <link href="friend.css" rel="stylesheet">
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      @font-face{
+        font-family: 'Quark-Light';
+        src: url('fonts/quark/Quark-Light.otf');
+      }
+      @font-face{
+        font-family: 'Quark-Bold';
+        src: url('fonts/quark/Quark-Bold.otf');
+      }
+
+      #carouselCap{
+        font-size: 400%;
+        font-family: 'Quark-Light';
+        line-height: 1;
+        
+      }
+      #carousel-button{
+        height: 50%;
+        position: absolute;
+        right: 18%;
+
+      }
+      #carousel-button-text{
+        font-family: 'Quark-Light';
+        font-size: 200%;
+        position: relative;
+        padding-top: 7px;
+        margin-bottom: 40px;
+        text-shadow:none;
+        
+      }
+
+      #navbarline{
+        display: block;
+        height: 31px;
+        margin-top: 5px;
+        width: 1px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #navbarFont{
+        color: #FFFFFF;
+      }
+
+
+      
+    </style>
+  </head>
+  <body>
+    <!--============================== Carousel ==============================-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <!-- Caption1 pic here -->
+      <img src="images/mainpage/carousel/carousel_pic.jpg" alt="">
+      <div class="carousel-caption">
+        <!-- Caption1 here -->
+        <div class="col-md-8 col-md-offset-2">
+            <p id="carouselCap">Hi,</p>
+            <p id="carousel-button-text">Tan Ophaswongse</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <!-- Caption2 pic here -->
+      <img src="images/mainpage/carousel/carousel_pic.jpg" alt="">
+      <div class="carousel-caption">
+        <!-- Caption2 here -->
+        <div class="col-md-8 col-md-offset-2">
+            <p id="carouselCap">Hi,</p>
+            <p id="carousel-button-text">Tan Ophaswongse</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+<!--============================== End Carousel ==============================-->
+<!--============================== Nav ==============================-->
+<div style="background-color:#868686">
+  <div style="background-color:#282828">
+    <ul class="nav nav-pills nav-justified">
+      <li class="active"><a href="#" id="navbarFont">Some</a></li>
+      <li><a href="#" id="navbarFont">Thing</a></li>
+      <li><a href="#" id="navbarFont">Goes</a></li>
+      <li><a href="#" id="navbarFont">Here</a></li>
+    </ul>
+  </div>
+</div>
+<!--============================== End Nav ==============================-->
+  <!-- pheeeeeeeeeeeeeeeeeeeeeeee -->
+    <div class="row">
+      <h1 class="headAbout" style="margin-left:20px; text-align:center">About Me</h1>
+    </div>
+    <div class="row" style="margin-bottom:500px">
+      <div class="col-md-offset-2"
+      <img class="border picAbout" src="images/2.jpg"/>
+          <img class="border picAbout" src="images/3.jpg"/>
+          <img class="border picAbout" src="images/4.jpg"/>
+          <img class="border picAbout" src="images/5.jpg"/>
+          <img class="border picAbout" src="images/6.jpg"/>
+          <img class="border picAbout" src="images/7.jpg"/>
+      </div>
+    </div>
+    <!-- /.container -->
+
+
+    <!-- Load JS here for greater good =============================-->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script src="js/flatui-checkbox.js"></script>
+    <script src="js/flatui-radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+  </body>
+</html>
+
+
