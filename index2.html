@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
     <head>
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
         <title>Animated Responsive Image Grid</title>
@@ -10,276 +9,17 @@
         <meta name="keywords" content="grid, images, thumbnails, responsive, css3, jquery, javascript, random, transition, 3d, perspective" />
         <meta name="author" content="Codrops" />
         <link rel="shortcut icon" href="../favicon.ico"> 
-        <link rel="stylesheet" type="text/css" href="css/demo2.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
 		<noscript>
 			<link rel="stylesheet" type="text/css" href="css/fallback.css" />
 		</noscript>
-		<!-- others except photo album -->
-		 <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    	<link href="interestcss.css" rel="stylesheet">
-    	<link href="webcss.css" rel="stylesheet">
-    	<link href="friend.css" rel="stylesheet">
-    <!-- Loading Flat UI -->
-    <link href="css/flat-ui.css" rel="stylesheet">
-
-    <link rel="shortcut icon" href="images/favicon.ico">
 		<!--[if lt IE 9]>
 			<link rel="stylesheet" type="text/css" href="css/fallback.css" />
 		<![endif]-->
     </head>
-    <body><style>
-      @font-face{
-        font-family: 'Quark-Light';
-        src: url('fonts/quark/Quark-Light.otf');
-      }
-      @font-face{
-        font-family: 'Quark-Bold';
-        src: url('fonts/quark/Quark-Bold.otf');
-      }
-
-      #carouselCap{
-        font-size: 400%;
-        font-family: 'Quark-Light';
-        line-height: 1;
-        
-      }
-      #carousel-button{
-        height: 50%;
-        position: absolute;
-        right: 18%;
-
-      }
-      #carousel-button-text{
-        font-family: 'Quark-Light';
-        font-size: 200%;
-        position: relative;
-        padding-top: 7px;
-        margin-bottom: 40px;
-        text-shadow:none;
-        
-      }
-
-      #navbarline{
-        display: block;
-        height: 31px;
-        margin-top: 5px;
-        width: 1px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      #navbarFont{
-        color: #FFFFFF;
-      }
-
-
-      
-    </style>
-  </head>
-  <body>
-    <!--============================== Carousel ==============================-->
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <!-- Caption1 pic here -->
-      <img src="images/mainpage/carousel/carousel_pic.jpg" alt="">
-      <div class="carousel-caption">
-        <!-- Caption1 here -->
-        <div class="col-md-8 col-md-offset-2">
-            <p id="carouselCap">Hi,</p>
-            <p id="carousel-button-text">Tan Ophaswongse</p>
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <!-- Caption2 pic here -->
-      <img src="images/mainpage/carousel/carousel_pic.jpg" alt="">
-      <div class="carousel-caption">
-        <!-- Caption2 here -->
-        <div class="col-md-8 col-md-offset-2">
-            <p id="carouselCap">Hi,</p>
-            <p id="carousel-button-text">Tan Ophaswongse</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-
-<!--============================== End Carousel ==============================-->
-<!--============================== Nav ==============================-->
-<div style="background-color:#868686">
-  <div style="background-color:#282828">
-    <ul class="nav nav-pills nav-justified">
-      <li class="active"><a href="#" id="navbarFont">Some</a></li>
-      <li><a href="#" id="navbarFont">Thing</a></li>
-      <li><a href="#" id="navbarFont">Goes</a></li>
-      <li><a href="#" id="navbarFont">Here</a></li>
-    </ul>
-  </div>
-</div>
-<!--============================== End Nav ==============================-->
-  <!-- pheeeeeeeeeeeeeeeeeeeeeeee -->
-    <div class="row">
-      <!-- Profile Pic -->
-     <!--  <div class="col-md-2 col-md-offset-1 profilepic lefttabcontainer">
-        <div class="imgcontainer">
-        <img style="border-radius:5px; border:3px solid #282828" src="images/1.jpg">
-          <ul class="fontlefttab basicInfoCon" style="font-size:15px">
-            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Birthday:20 Oct 1994</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Gender: Male</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Phone: 09999999</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Something:something</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
-            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>    
-        </div> -->
-     
-      <!-- End of Profile Pic -->
-      <!-- Start Info Rectangle -->
-      <div class="col-md-8 col-md-offset-1 infowindow">
-        
-        <div class="infocontainer col-md-offset-1">
-          <h4 class="headAbout" style="margin-left:20px">About Me</h4>
-          <div class="textContainer col-md-offset-1">
-          <p style="font-size:15px"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum sollicitudin urna vel aliquam. Cras vitae pretium massa, et interdum arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum dolor, nec placerat lectus sollicitudin quis. Praesent eu eros et leo sollicitudin ornare sed ut mauris. Mauris posuere, dui nec cursus adipiscing, nisl lacus tristique libero, vel molestie quam nunc non nibh. Sed vulputate mauris vel elit fringilla placerat. Nam risus risus, consectetur at sodales vitae, vehicula a ipsum. Vestibulum ac elit diam. Nullam luctus, elit eu iaculis laoreet, nibh odio euismod sapien, a fermentum massa lectus ut odio. Nam tempor mauris varius mi egestas mattis. Vestibulum vitae mi magna. Nulla turpis tortor, gravida at libero sit amet, ultricies ultrices purus. Suspendisse convallis nulla non ligula sollicitudin, ac suscipit ante placerat. Pellentesque consequat sapien fermentum odio auctor, ac viverra mi scelerisque. Etiam semper ligula sit amet libero pretium eleifend.</p>
-        </div>
-        <div class="photoCon col-md-offset-7">
-          <img class="border picAbout" src="images/2.jpg"/>
-          <img class="border picAbout" src="images/3.jpg"/>
-          <img class="border picAbout" src="images/4.jpg"/>
-          <img class="border picAbout" src="images/5.jpg"/>
-          <img class="border picAbout" src="images/6.jpg"/>
-          <img class="border picAbout" src="images/7.jpg"/>
-        </div>
-        </div>
-        <div>
-          <img class="sepLine" src="images/line.png" style="width:0.2%; height:90%">
-        </div>
-        <!-- <div class="photoCon"></div> -->
-      </div>
-    </div>
-      <!-- End of info rectangle -->
-    </div>
-    <!-- Start Hobbies and Interest Page -->
-      <div class="row">
-        <div class="col-md-offset-1 col-md-">
-            <p class="headerStyle">Hobbies & Interest</p>
-            <img class="lineStyle" src="images/horizontalline.png" style="margin-left:-20px">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-offset-2 col-md-4 videoCon">
-        </div>
-        <div class="col-md-4 videoCon" style="margin-left:21px">
-        </div>
-      </div> 
-      <div class="row" style="margin-bottom:50px;">
-        <div class="pictureCon1 col-md-offset-1 col-md-2" ></div>
-        <div class="pictureCon col-md-2"></div>
-        <div class="pictureCon col-md-2"></div>
-        <div class="pictureCon col-md-2"></div>
-        <div class="pictureCon col-md-2">
-            <div class="wrapper">
-            <img style="width:150px; height:150px " src="images/2.jpg">
-            <div class="description">  
-          <!-- description content -->  
-              <p class="description_content">Playing Tennis</p>
-          <!-- end description content -->  
-            </div> 
-        </div>   
-        </div>
-      </div> 
-      <!-- Start Friends -->
-       <div class="row">
-        <div class="col-md-offset-1 col-md-10">
-            <p class="headerStyle" style="text-align:right">My Friends : )</p>
-            <img class="lineStyle2" src="images/horizontalline.png">
-        </div>
-      </div>
-      <div class="row">
-        <div id="noPad" class="displayPic1 col-md-offset-2 col-md-2">
-          <img class="picFriends" src="images/2.jpg"/>
-        </div>
-        <div id="noPad" class="displayPic col-md-2">
-          <img class="picFriends" src="images/3.jpg"/>
-        </div>
-        <div id="noPad" class="displayPic col-md-2">
-          <img class="picFriends" src="images/4.jpg"/> 
-        </div>
-        <div id="noPad" class="displayPic col-md-2">
-          <img class="picFriends" src="images/5.jpg"/>
-        </div>
-        <div id="noPad" class="displayPic col-md-2">
-          <img class="picFriends" src="images/6.jpg"/>
-        </div>
-      </div> 
-      <div class="row">
-        <div id="noPad" class="displayPic1 col-md-offset-3 col-md-2">
-          <img class="picFriends" src="images/7.jpg"/>
-        </div>
-        <div id="noPad" class="displayPic col-md-2">
-          <img class="picFriends" src="images/3.jpg"/>
-        </div>
-        <div id="noPad" class="displayPic col-md-2">
-          <img class="picFriends" src="images/4.jpg"/> 
-        </div>
-        <div id="noPad" class="displayPic col-md-2">
-          <img class="picFriends" src="images/5.jpg"/>
-        </div>
-        <div id="noPad" class="displayPic col-md-2">
-          <img class="picFriends" src="images/6.jpg"/>
-        </div>
-      </div>  
-      <div class="row" style="margin-bottom:50px">
-        <div id="noPad" class="displayPic1 col-md-offset-2 col-md-2">
-          <img class="picFriends" src="images/7.jpg"/>
-        </div>
-        <div id="noPad" class="displayPic col-md-2">
-          <img class="picFriends" src="images/3.jpg"/>
-        </div>
-        <div id="noPad" class="displayPic col-md-2">
-          <img class="picFriends" src="images/4.jpg"/> 
-        </div>
-        <div id="noPad" class="displayPic col-md-2">
-          <img class="picFriends" src="images/5.jpg"/>
-        </div>
-        <div id="noPad" class="displayPic col-md-2">
-          <img class="picFriends" src="images/6.jpg"/>
-        </div>
-      </div>  
-      <!-- <div class="row" >
-        <div class="displayPic1 col-md-offset-1 col-md-2"></div>
-        <div class="displayPic col-md-offset-1 col-md-2"></div>
-        <div class="displayPic col-md-offset-1 col-md-2"></div>
-        <div class="displayPic col-md-offset-1 col-md-2"></div>
-        <div class="displayPic col-md-offset-1 col-md-2"></div>
-        <div class="displayPic col-md-offset-1 col-md-2"></div>
-      </div>   -->
- 
-    
-    
-    <!-- /.container -->
-    	<!-- Photo Albummmmmmmmmmmmmm -->
+    <body>
 		<img src="images/loading.gif" style="display:none;"/>
 
         <div class="container">
@@ -318,60 +58,60 @@
 				<div id="ri-grid" class="ri-grid ri-grid-size-2">
 					<img class="ri-loading-image" src="images/loading.gif"/>
 					<ul>
-						<li><a href="#"><img src="images/1.jpg"/></a></li>
-						<li><a href="#"><img src="images/2.jpg"/></a></li>
-						<li><a href="#"><img src="images/3.jpg"/></a></li>
-						<li><a href="#"><img src="images/4.jpg"/></a></li>
-						<li><a href="#"><img src="images/5.jpg"/></a></li>
-						<li><a href="#"><img src="images/6.jpg"/></a></li>
-						<li><a href="#"><img src="images/7.jpg"/></a></li>
-						<li><a href="#"><img src="images/8.jpg"/></a></li>
-						<li><a href="#"><img src="images/9.jpg"/></a></li>
-						<li><a href="#"><img src="images/10.jpg"/></a></li>
-						<li><a href="#"><img src="images/11.jpg"/></a></li>
-						<li><a href="#"><img src="images/12.jpg"/></a></li>
-						<li><a href="#"><img src="images/13.jpg"/></a></li>
-						<li><a href="#"><img src="images/14.jpg"/></a></li>
-						<li><a href="#"><img src="images/15.jpg"/></a></li>
-						<li><a href="#"><img src="images/16.jpg"/></a></li>
-						<li><a href="#"><img src="images/17.jpg"/></a></li>
-						<li><a href="#"><img src="images/18.jpg"/></a></li>
-						<li><a href="#"><img src="images/19.jpg"/></a></li>
-						<li><a href="#"><img src="images/20.jpg"/></a></li>
-						<li><a href="#"><img src="images/21.jpg"/></a></li>
-						<li><a href="#"><img src="images/22.jpg"/></a></li>
-						<li><a href="#"><img src="images/23.jpg"/></a></li>
-						<li><a href="#"><img src="images/24.jpg"/></a></li>
-						<li><a href="#"><img src="images/25.jpg"/></a></li>
-						<li><a href="#"><img src="images/26.jpg"/></a></li>
-						<li><a href="#"><img src="images/27.jpg"/></a></li>
-						<li><a href="#"><img src="images/28.jpg"/></a></li>
-						<li><a href="#"><img src="images/29.jpg"/></a></li>
-						<li><a href="#"><img src="images/30.jpg"/></a></li>
-						<li><a href="#"><img src="images/31.jpg"/></a></li>
-						<li><a href="#"><img src="images/32.jpg"/></a></li>
-						<li><a href="#"><img src="images/33.jpg"/></a></li>
-						<li><a href="#"><img src="images/34.jpg"/></a></li>
-						<li><a href="#"><img src="images/35.jpg"/></a></li>
-						<li><a href="#"><img src="images/36.jpg"/></a></li>
-						<li><a href="#"><img src="images/37.jpg"/></a></li>
-						<li><a href="#"><img src="images/38.jpg"/></a></li>
-						<li><a href="#"><img src="images/39.jpg"/></a></li>
-						<li><a href="#"><img src="images/40.jpg"/></a></li>
-						<li><a href="#"><img src="images/41.jpg"/></a></li>
-						<li><a href="#"><img src="images/42.jpg"/></a></li>
-						<li><a href="#"><img src="images/43.jpg"/></a></li>
-						<li><a href="#"><img src="images/44.jpg"/></a></li>
-						<li><a href="#"><img src="images/45.jpg"/></a></li>
-						<li><a href="#"><img src="images/46.jpg"/></a></li>
-						<li><a href="#"><img src="images/47.jpg"/></a></li>
-						<li><a href="#"><img src="images/48.jpg"/></a></li>
-						<li><a href="#"><img src="images/49.jpg"/></a></li>
-						<li><a href="#"><img src="images/50.jpg"/></a></li>
-						<li><a href="#"><img src="images/51.jpg"/></a></li>
-						<li><a href="#"><img src="images/52.jpg"/></a></li>
-						<li><a href="#"><img src="images/53.jpg"/></a></li>
-						<li><a href="#"><img src="images/54.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/1.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/2.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/3.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/4.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/5.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/6.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/7.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/8.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/9.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/10.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/11.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/12.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/13.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/14.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/15.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/16.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/17.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/18.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/19.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/20.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/21.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/22.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/23.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/24.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/25.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/26.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/27.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/28.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/29.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/30.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/31.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/32.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/33.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/34.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/35.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/36.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/37.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/38.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/39.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/40.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/41.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/42.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/43.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/44.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/45.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/46.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/47.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/48.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/49.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/50.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/51.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/52.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/53.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/54.jpg"/></a></li>
 					</ul>
 				</div>
 				<p class="codrops-info"><strong>Demo 2:</strong> "fadeInOut" animation / 100% container width / 1 image switch at a time / 600ms between switching</p>
@@ -402,15 +142,5 @@
 			
 			});
 		</script>
-		 <script src="js/jquery-1.8.3.min.js"></script>
-	    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
-	    <script src="js/jquery.ui.touch-punch.min.js"></script>
-	    <script src="js/bootstrap.min.js"></script>
-	    <script src="js/bootstrap-select.js"></script>
-	    <script src="js/bootstrap-switch.js"></script>
-	    <script src="js/flatui-checkbox.js"></script>
-	    <script src="js/flatui-radio.js"></script>
-	    <script src="js/jquery.tagsinput.js"></script>
-	    <script src="js/jquery.placeholder.js"></script>
     </body>
 </html>

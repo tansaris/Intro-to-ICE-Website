@@ -25,6 +25,7 @@
     <link rel="stylesheet" type="text/css" href="css/demo2.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <script src="js/modernizr.custom.js"></script>
+
     <!-- Circle -->
     <link rel="stylesheet" type="text/css" href="css/common.css" />
     <link rel="stylesheet" type="text/css" href="css/style7.css" />
@@ -98,29 +99,41 @@
         margin-top: 47px;
       }
       #Hobbie{
-        padding-top: 47px;
+        padding-top: 50px;
       }
       .noMarginTop{
         margin-top: 0px;
       }
 
+      #Photo{
+        padding-top:80px;
+      }
+      #Friend{
+        padding-top: 80px;
+      }
+
       
     </style>
   </head>
-  <body class="demo-2" style="background-color:#e9eaed; overflow-x:hidden" data-spy="scroll" data-target=".theNavBar">
+  <body class="demo-2" style="background-color:#e9eaed; overflow-x:hidden" data-spy="scroll" data-target=".theNavBar" data-offset="0">
 <!--============================== Carousel ==============================-->
+<!--============================== Carousel ==============================-->
+
 <div id="mycarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
     <li data-target="#mycarousel" data-slide-to="1"></li>
+    <li data-target="#mycarousel" data-slide-to="2"></li>
+    <li data-target="#mycarousel" data-slide-to="3"></li>
+    <li data-target="#mycarousel" data-slide-to="4"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
       <!-- Caption1 pic here -->
-      <img src="images/car1.jpg" alt="">
+      <img src="images/Hi.png" alt="">
       <div class="carousel-caption">
         <!-- Caption1 here -->
         <div class="col-md-8 col-md-offset-2">
@@ -186,19 +199,18 @@
 
 <!--============================== End Carousel ==============================-->
 <!--============================== Nav ==============================-->
-<div class="theNavBar" data-spy="affix" data-offset-top="409" >
+<div class="theNavBar" data-spy="affix" data-offset-top="500" >
   <nav class="navbar navbar-default" id="navbar-in" role="navigation">
       <ul class="nav nav-pills nav-justified" style="background-color:#282828">
-        <li><a href="#Contact" id="navbarFont" >Contact</a></li>
-        <li><a href="#Hobbie" id="navbarFont" >Hobbie</a></li>
+        <li><a href="" id="navbarFont" >Home</a></li>
+        <li><a href="#Hobbie" id="navbarFont" >Hobbies</a></li>
         <li><a href="#Friend" id="navbarFont" >Friend</a></li>
-        <li><a href="#Thing" id="navbarFont" >Here</a></li>
+        <li><a href="#Photo" id="navbarFont" >Photo Gallery</a></li>
       </ul>
   </nav>
 </div>
 <!--============================== End Nav ==============================-->
   <!-- pheeeeeeeeeeeeeeeeeeeeeeee -->
-    
     <!-- Start Hobbies and Interest Page -->
       <div id="Hobbie"class="row">
         <div class="col-md-offset-1 col-md-2">
@@ -208,39 +220,72 @@
       </div>
       <div class="row">
         <div class="col-md-offset-2 col-md-4 videoCon">
-          <video class="video-js noMarginTop" controls preload="auto" width="420" height="300" poster="images/video/poster.jpg" data-setup="{}">
-              <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.mp4" type="video/mp4">
+          <video class="video-js noMarginTop" controls preload="none" width="420" height="300" poster="images/GOT.png" data-setup="{}">
+              <source src="video/GOT.mp4" type="video/mp4">
               <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.webm" type="video/webm">
             </video>
 
         </div>
         <div class="col-md-4 videoCon" style="margin-left:21px">
-          <video class="video-js noMarginTop" controls preload="auto" width="420" height="300" poster="images/video/poster.jpg" data-setup="{}">
-              <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.mp4" type="video/mp4">
+          <video class="video-js noMarginTop" controls preload="none" width="420" height="300" poster="images/Sherlock.jpg" data-setup="{}">
+              <source src="video/Sherlock.mp4" type="video/mp4">
               <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.webm" type="video/webm">
             </video>
 
         </div>
       </div> 
       <div class="row" style="margin-bottom:50px;">
-        <div class="pictureCon1 col-md-offset-1 col-md-2" ></div>
-        <div class="pictureCon col-md-1"></div>
-        <div class="pictureCon col-md-2"></div>
-        <div class="pictureCon col-md-1"></div>
+        <div class="pictureCon1 col-md-offset-1 col-md-2">
+          <div class="wrapper">
+            <img style="width:200px; height:150px; padding-left:0" src="images/photo.jpg">
+            <div class="description">  
+          <!-- description content -->  
+              <p class="description_content">Photography</p>
+          <!-- end description content -->  
+            </div> 
+          </div>   
+        </div>
         <div class="pictureCon col-md-2">
-            <div class="wrapper">
+          <div class="wrapper">
+            <img style="width:200px; height:150px " src="images/car.jpg">
+            <div class="description">  
+          <!-- description content -->  
+              <p class="description_content">Cars</p>
+          <!-- end description content -->  
+            </div> 
+          </div>   
+        </div><div class="pictureCon col-md-2">
+          <div class="wrapper">
+            <img style="width:200px; height:150px " src="images/Coding.png">
+            <div class="description">  
+          <!-- description content -->  
+              <p class="description_content">Programming</p>
+          <!-- end description content -->  
+            </div> 
+          </div>   
+        </div><div class="pictureCon col-md-2">
+          <div class="wrapper">
+            <img style="width:200px; height:150px " src="images/badminton.jpg">
+            <div class="description">  
+          <!-- description content -->  
+              <p class="description_content">Badminton</p>
+          <!-- end description content -->  
+            </div> 
+          </div>   
+        </div>
+        <div class="pictureCon col-md-2">
+          <div class="wrapper">
             <img style="width:150px; height:150px " src="images/2.jpg">
             <div class="description">  
           <!-- description content -->  
               <p class="description_content">Playing Tennis</p>
           <!-- end description content -->  
             </div> 
-        </div>   
+          </div>   
         </div>
       </div> 
-        <!-- End of Hobbies -->
-    <!-- Start Friends -->
-       <div class="row">
+      <!-- Start Friends -->
+       <div class="row" id="Friend">
         <div class="col-md-offset-1 col-md-10">
             <p class="headerStyle" style="text-align:left; font-size:80px; margin-top:-10px; color:#ffffff">My <span style="color:yellow;font-size:100px">F</span>riend<span 
               style="color:yellow; font-size:100px">S</span></p>
@@ -409,6 +454,73 @@
           </ul>
 
         </section>
+    </div>
+      <!-- =================Photo gallery ======================-->
+      <div class="row">
+         <p  id="Photo"class="headerStyle" >Photo Gallery</p>
+        <section class="grid3d horizontal" id="grid3d">
+        <div class="grid-wrap">
+          <div class="grid">
+            <figure><img src="images/photo1.jpg" alt=""/></figure>
+            <figure><img src="images/photo2.jpg" alt=""/></figure>
+            <figure><img src="images/photo3.jpg" alt=""/></figure>
+            <figure><img src="images/photo4.jpg" alt=""/></figure>
+            <figure><img src="images/photo5.jpg" alt=""/></figure>
+            <figure><img src="images/photo6.jpg" alt=""/></figure>
+            <figure><img src="images/photo7.jpg" alt=""/></figure>
+            <figure><img src="images/photo8.jpg" alt=""/></figure>
+            <figure><img src="images/photo9.jpg" alt=""/></figure>
+            <figure><img src="images/photo10.jpg" alt=""/></figure>
+            <figure><img src="images/photo11.jpg" alt=""/></figure>
+            <figure><img src="images/photo12.jpg" alt=""/></figure>
+          </div>
+        </div><!-- /grid-wrap -->
+        <div class="content" style="background-color:#282828"  >
+          <div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/photo1.jpg" alt=""/></div>
+
+          </div>
+          <div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/photo2.jpg" alt=""/></div>
+            
+          </div>
+          <div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/photo3.jpg" alt=""/></div>
+            
+          </div>
+          <div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/photo4.jpg" alt=""/></div>
+            
+          </div>
+          <div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/photo5.jpg" alt=""/></div>
+            
+          </div><div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/photo6.jpg" alt=""/></div>
+            
+          </div><div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/photo7.jpg" alt=""/></div>
+            
+          </div><div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="imagesphoto8.jpg" alt=""/></div>
+            
+          </div><div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/photo9.jpg" alt=""/></div>
+            
+          </div><div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/photo10.jpg" alt=""/></div>
+            
+          </div><div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/photo11.jpg" alt=""/></div>
+            
+          </div><div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/photo12.jpg" alt=""/></div>
+            
+          </div>
+          <span class="loading"></span>
+          <span class="icon close-content"></span>
+        </div>
+      </section>
     </div>
 
 
