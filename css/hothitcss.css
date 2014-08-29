@@ -1,0 +1,145 @@
+.header{
+	font-family:Quark;
+	font-weight:lighter;
+}
+.whiterectangle {
+	width: 160px;
+	height: 480px;
+	background: white;
+	overflow:hidden;
+}
+.image{
+	border-image-outset:10px; 
+	border-image-source:image;
+}
+.imgcontainer{
+	width:140px;
+	height:140px;
+	margin-left:10px; 
+	margin-top:10px; 
+	margin-bottom:8px
+}
+.imgcontainer img{
+    width: 100%;
+    height: auto;
+ }
+.title{
+ 	font-family: Quark;
+ 	font-weight: bold;
+ 	font-size: 20px;
+ 	color:#d77338;
+ 	margin-left:10px;
+ 	margin-top: 7px;
+ }
+ .by{
+ 	font-family: Quark;
+ 	font-weight: lighter;
+ 	font-size: 15px;
+ 	color:black;
+ 	margin-left:10px;
+ 	margin-bottom: 10px;
+ }
+ .Thinc{
+ 	font-family: Quark;
+ 	font-weight: lighter;
+ 	font-size: 15px;
+ 	color:#d77338;
+ 	margin-bottom:10px;
+ }
+ .txtcontainer{
+ 	width:140px;
+	height:80px;
+ 	white-space:normal;
+ 	overflow-y:hidden;
+ 	margin-left:10px;
+ 	margin-bottom:13px;
+ }
+ .detail{
+	font-family: Quark;
+ 	font-weight: lighter;
+ 	font-size: 12px;
+ 	color:black;
+ 	
+ }
+ .topic{
+ 	font-family: Quark;
+ 	font-weight: bold;
+ 	font-size: 12px;
+ 	color:#d77338;
+ }
+.txtsmallcontainer{
+	width:140px;
+	height:18px;
+ 	white-space:normal;
+ 	overflow-y:hidden;
+ 	margin-left:10px;
+}
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+   appearance: none;
+  margin-left:10px;
+  margin-top:-50px;
+  width: 140px;
+  height: 3px;
+}
+progress[value]::-webkit-progress-bar {
+  background-color: #ededed;
+	margin-top:-10px;
+}
+progress[value]::-webkit-progress-value {
+  background-color:#d77338;
+  margin-top:-10px;
+ 
+}
+.infoCostContainer{
+	width:70px;
+	height:18px;
+ 	white-space:normal;
+ 	overflow-y:normal;
+ 	margin-left:10px;
+}
+.infoContainer{
+	width:140px;
+	height:20px;
+ 	white-space:normal;
+ 	word-spacing:25px;
+ 	overflow-y:hidden;
+ 	margin-left:10px;
+ 	margin-top: 3px;
+}
+.valueContainer{
+	width:140px;
+	height:15px;
+ 	white-space:normal;
+ 	word-spacing:40px;
+ 	overflow-y:hidden;
+ 	margin-left:10px;
+ 	margin-top: 0px;
+
+}
+.DayandCost{
+ 	font-family: Quark;
+ 	font-weight: bold;
+ 	font-size: 12px;
+ 	color:#d77338;
+ 	margin-bottom:10px;
+}
+.sepLine
+{    
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: 185px;
+}
+.seeAll{
+	margin-top:-50px; 
+	margin-bottom:8px
+	float:right;
+	font-family: Quark;
+ 	font-weight: bold;
+ 	font-size: 20px;
+ 	color:#d77338;
+ 	float:right;
+}

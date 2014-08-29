@@ -1,0 +1,25 @@
+
+.VoteBtnBg
+{    
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -51px;
+    margin-top: -18.3px;
+}
+.VoteBtnTxt
+{
+    z-index:100;
+    position:relative;    
+    color:white;
+    text-align:center;
+    font-family:Quark;
+    font-size:24px;
+    font-weight:bold;
+    left:10px;
+    top:7px;
+}
+#VoteFont
+{
+    font-family:Quark;
+}

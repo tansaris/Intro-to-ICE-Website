@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Flat UI Free</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="interestcss.css" rel="stylesheet">
+    <link href="webcss.css" rel="stylesheet">
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
+    <noscript>
+      <link rel="stylesheet" type="text/css" href="css/fallback.css" />
+    </noscript>
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo2.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      @font-face{
+        font-family: 'Quark-Light';
+        src: url('fonts/quark/Quark-Light.otf');
+      }
+      @font-face{
+        font-family: 'Quark-Bold';
+        src: url('fonts/quark/Quark-Bold.otf');
+      }
+
+      #carouselCap{
+        font-size: 400%;
+        font-family: 'Quark-Light';
+        line-height: 1;
+        
+      }
+      #carousel-button{
+        height: 50%;
+        position: absolute;
+        right: 18%;
+
+      }
+      #carousel-button-text{
+        font-family: 'Quark-Light';
+        font-size: 200%;
+        position: relative;
+        padding-top: 7px;
+        margin-bottom: 40px;
+        text-shadow:none;
+        
+      }
+      #mycarousel{
+        height:500px;
+      }
+      #navbarline{
+        display: block;
+        height: 31px;
+        margin-top: 5px;
+        width: 1px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #navbarFont{
+        color: #FFFFFF;
+      }
+
+      body{
+        position: relative;
+      }
+      .affix{
+        top:0px;
+        z-index: 5;
+      }
+      .theNavBar{
+        /*position: absolute;*/
+      }
+      #navbar-in{
+        min-height: 47px;
+        margin-bottom: 0;
+      }
+      #Contact{
+        margin-top: 47px;
+      }
+      #Hobbie{
+        padding-top: 47px;
+      }
+      .noMarginTop{
+        margin-top: 0px;
+      }
+
+      #Photo{
+        padding-top:80px;
+      }
+
+      
+    </style>
+  </head>
+  <body class="demo-2" style="background-color:#e9eaed; overflow-x:hidden" data-spy="scroll" data-target=".theNavBar">
+<!--============================== Carousel ==============================-->
+<div id="mycarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#mycarousel" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <!-- Caption1 pic here -->
+      <img src="images/mainpage/carousel/carousel.png" alt="">
+      <div class="carousel-caption">
+        <!-- Caption1 here -->
+        <div class="col-md-8 col-md-offset-2">
+            <p id="carouselCap">Hi,</p>
+            <p id="carousel-button-text">Tan Ophaswongse</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <!-- Caption2 pic here -->
+      <img src="images/mainpage/carousel/carousel2.png" alt="">
+      <div class="carousel-caption">
+        <!-- Caption2 here -->
+        <div class="col-md-8 col-md-offset-2">
+            <p id="carouselCap">Hi,</p>
+            <p id="carousel-button-text">Tan Ophaswongse</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+<!--============================== End Carousel ==============================-->
+<!--============================== Nav ==============================-->
+<div class="theNavBar" data-spy="affix" data-offset-top="409" >
+  <nav class="navbar navbar-default" id="navbar-in" role="navigation">
+      <ul class="nav nav-pills nav-justified" style="background-color:#282828">
+        <li><a href="#Hobbie" id="navbarFont" >Hobbies</a></li>
+        <li><a href="#Friend" id="navbarFont" >Friend</a></li>
+        <li><a href="#Photo" id="navbarFont" >Photo Gallery</a></li>
+      </ul>
+  </nav>
+</div>
+<!--============================== End Nav ==============================-->
+  <!-- pheeeeeeeeeeeeeeeeeeeeeeee -->
+    <div id="Contact" class="row">
+      <!-- Profile Pic -->
+      <div class="col-md-2 col-md-offset-1 profilepic lefttabcontainer">
+        <div class="imgcontainer">
+        <img style="border-radius:5px; border:3px solid #282828" src="images/1.jpg">
+          <ul class="fontlefttab basicInfoCon" style="font-size:15px">
+            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
+            <div class="smallTextCon"><p class="fontlefttab">Birthday:20 Oct 1994</p></div>
+            <div class="smallTextCon"><p class="fontlefttab">Gender: Male</p></div>
+            <div class="smallTextCon"><p class="fontlefttab">Phone: 09999999</p></div>
+            <div class="smallTextCon"><p class="fontlefttab">Something:something</p></div>
+            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
+            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
+            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
+            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
+            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>
+            <div class="smallTextCon"><p class="fontlefttab">Nickname: Phee</p></div>    
+        </div>
+      </div>
+      <!-- End of Profile Pic -->
+      <!-- Start Info Rectangle -->
+      <div class="col-md-8 infowindow">
+        <div class="infocontainer">
+          <h6>Contact Information</h6>
+          <div class="textContainer">
+          <p style="font-size:15px"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum sollicitudin urna vel aliquam. Cras vitae pretium massa, et interdum arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum dolor, nec placerat lectus sollicitudin quis. Praesent eu eros et leo sollicitudin ornare sed ut mauris. Mauris posuere, dui nec cursus adipiscing, nisl lacus tristique libero, vel molestie quam nunc non nibh. Sed vulputate mauris vel elit fringilla placerat. Nam risus risus, consectetur at sodales vitae, vehicula a ipsum. Vestibulum ac elit diam. Nullam luctus, elit eu iaculis laoreet, nibh odio euismod sapien, a fermentum massa lectus ut odio. Nam tempor mauris varius mi egestas mattis. Vestibulum vitae mi magna. Nulla turpis tortor, gravida at libero sit amet, ultricies ultrices purus. Suspendisse convallis nulla non ligula sollicitudin, ac suscipit ante placerat. Pellentesque consequat sapien fermentum odio auctor, ac viverra mi scelerisque. Etiam semper ligula sit amet libero pretium eleifend.</p>
+        </div>
+        <div class="photoCon">
+          <img style="width:150px; height:150px; margin-left:25px; margin-top:11px" class="border" src="images/2.jpg"/>
+          <img style="width:150px; height:150px; margin-left:1px; margin-top:11px"class="border" src="images/3.jpg"/>
+          <img style="width:150px; height:150px; margin-left:25px; margin-top:5px"class="border" src="images/4.jpg"/>
+          <img style="width:150px; height:150px; margin-left:1px; margin-top:5px" class="border" src="images/5.jpg"/>
+          <img style="width:150px; height:150px; margin-left:25px; margin-top:5px" class="border" src="images/6.jpg"/>
+          <img style="width:150px; height:150px; margin-left:1px; margin-top:5px" class="border" src="images/7.jpg"/>
+        </div>
+        </div>
+        <div>
+          <img class="sepLine" src="images/line.png"/ style="width:0.2%; height:90%">
+        </div>
+        <!-- <div class="photoCon"></div> -->
+      </div>
+      <!-- End of info rectangle -->
+    </div>
+    <!-- Start Hobbies and Interest Page -->
+      <div id="Hobbie"class="row">
+        <div class="col-md-offset-1 col-md-2">
+            <p class="headerStyle">Hobbies/Interest</p>
+            <img class="lineStyle" src="images/horizontalline.png" style="margin-left:-20px">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-4 videoCon">
+          <video class="video-js noMarginTop" controls preload="auto" width="420" height="300" poster="images/video/poster.jpg" data-setup="{}">
+              <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.mp4" type="video/mp4">
+              <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.webm" type="video/webm">
+            </video>
+
+        </div>
+        <div class="col-md-4 videoCon" style="margin-left:21px">
+          <video class="video-js noMarginTop" controls preload="auto" width="420" height="300" poster="images/video/poster.jpg" data-setup="{}">
+              <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.mp4" type="video/mp4">
+              <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.webm" type="video/webm">
+            </video>
+
+        </div>
+      </div> 
+      <div class="row" style="margin-bottom:50px;">
+        <div class="pictureCon1 col-md-offset-1 col-md-2" ></div>
+        <div class="pictureCon col-md-1"></div>
+        <div class="pictureCon col-md-2"></div>
+        <div class="pictureCon col-md-1"></div>
+        <div class="pictureCon col-md-2">
+            <div class="wrapper">
+            <img style="width:150px; height:150px " src="images/2.jpg">
+            <div class="description">  
+          <!-- description content -->  
+              <p class="description_content">Playing Tennis</p>
+          <!-- end description content -->  
+            </div> 
+        </div>   
+        </div>
+      </div> 
+      <!-- Start Friends -->
+       <div id="Friend" class="row">
+        <div class="col-md-offset-1 col-md-10">
+            <p class="headerStyle" style="text-align:right">My Friends : )</p>
+            <img class="lineStyle2" src="images/horizontalline.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-4 videoCon">
+        </div>
+        <div class="col-md-4 videoCon" style="margin-left:21px">
+        </div>
+      </div> 
+      <div class="row" style="margin-bottom:50px;">
+        <div class="pictureCon1 col-md-offset-1 col-md-2" ></div>
+        <div class="pictureCon col-md-1"></div>
+        <div class="pictureCon col-md-2"></div>
+        <div class="pictureCon col-md-1"></div>
+        <div class="pictureCon col-md-2">
+          <div class="wrapper">
+            <img style="width:150px; height:150px " src="images/2.jpg">
+            <div class="description">  
+          <!-- description content -->  
+              <p class="description_content">Playing Tennis</p>
+          <!-- end description content -->  
+            </div> 
+          </div>   
+        </div>
+      </div>
+      <!-- =================Photo gallery ======================-->
+      <div class="row">
+         <p  id="Photo"class="headerStyle" >Photo Gallery</p>
+        <section class="grid3d horizontal" id="grid3d">
+        <div class="grid-wrap">
+          <div class="grid">
+            <figure><img src="images/4.jpg" alt="img04"/></figure>
+            <figure><img src="images/3.jpg" alt="img03"/></figure>
+            <figure><img src="images/1.jpg" alt="img01"/></figure>
+            <figure><img src="images/5.jpg" alt="img05"/></figure>
+            <figure><img src="images/2.jpg" alt="img02"/></figure>
+            <figure><img src="images/8.jpg" alt="img08"/></figure>
+            <figure><img src="images/9.jpg" alt="img09"/></figure>
+            <figure><img src="images/6.jpg" alt="img06"/></figure>
+            <figure><img src="images/7.jpg" alt="img07"/></figure>
+            <figure><img src="images/9.jpg" alt="img09"/></figure>
+            <figure><img src="images/6.jpg" alt="img06"/></figure>
+            <figure><img src="images/7.jpg" alt="img07"/></figure>
+          </div>
+        </div><!-- /grid-wrap -->
+        <div class="content" style="background-color:#282828"  >
+          <div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
+
+          </div>
+          <div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
+            
+          </div>
+          <div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
+            
+          </div>
+          <div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
+            
+          </div>
+          <div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
+            
+          </div><div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
+            
+          </div><div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
+            
+          </div><div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
+            
+          </div><div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
+            
+          </div><div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
+            
+          </div><div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
+            
+          </div><div style="background-color:#282828">
+            <div class="dummy-img" ><img style="width:600px; height:auto" src="images/4.jpg" alt="img04"/></div>
+            
+          </div>
+          <span class="loading"></span>
+          <span class="icon close-content"></span>
+        </div>
+      </section>
+    </div>
+
+
+    <!-- Load JS here for greater good =============================-->
+    
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script src="js/flatui-checkbox.js"></script>
+    <script src="js/flatui-radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+
+    <script src="js/classie.js"></script>
+    <script src="js/helper.js"></script>
+    <script src="js/grid3d.js"></script>
+    <script>
+      new grid3D( document.getElementById( 'grid3d' ) );
+    </script>
+
+  </body>
+</html>
+
+
+
