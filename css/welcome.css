@@ -1,0 +1,24 @@
+@font-face{
+        font-family: 'FuturaLT-Light';
+        src: url('fonts/FuturaLT/FuturaLT-Light.ttf');
+      }
+@font-face{
+        font-family: 'FuturaLT-Book';
+        src: url('fonts/FuturaLT/FuturaLT-Book.ttf');
+}
+.bg{
+	background-image:url("images/maclogin.png");
+}
+.border{
+	border:3px solid;
+	border-color:white;
+	border-radius:1300px;
+}
+.text{
+	font-family: 'FuturaLT-Light';
+	font-size: 300px;
+}
+.text1{
+	font-family: 'FuturaLT-Light';
+	font-size: 200px;
+}
