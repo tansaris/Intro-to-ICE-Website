@@ -2,11 +2,19 @@
         font-family: 'Quark-Light';
         src: url('fonts/quark/Quark-Light.otf');
       }
+@font-face{
+        font-family: 'FuturaLT-Light';
+        src: url('fonts/FuturaLT/FuturaLT-Light.ttf');
+      }
+@font-face{
+        font-family: 'FuturaLT-Book';
+        src: url('fonts/FuturaLT/FuturaLT-Book.ttf');
+}
 .headerStyle{
-	font-family:'Quark-Light';
+	font-family:'FuturaLT-Book';
 	color:black;
-	font-size:30px;
-	margin-top:20px;
+	font-size:50px;
+	margin-top:0px;
 }
 .lineStyle{
 	margin-top:-80px;
